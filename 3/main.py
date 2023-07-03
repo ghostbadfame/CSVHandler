@@ -27,7 +27,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-client = MongoClient( 'mongodb+srv://kapoorshivam77:shivam2002@cluster0.8oexlkc.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient( 'mongodb+srv://mongo_id:password@cluster0.8oexlkc.mongodb.net/?retryWrites=true&w=majority')
 db = client['Cluster0']
 collection = db['test']
 
