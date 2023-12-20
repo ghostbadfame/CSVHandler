@@ -16,41 +16,30 @@ Before running the project, ensure that you have the following dependencies inst
 
 ### Frontend (ReactJS)
 
-1. Navigate to the `frontend` directory:
-
-    ```bash
-    cd frontend
-    ```
-
-2. Install dependencies:
+1. Install dependencies:
 
     ```bash
     npm install
     ```
 
-3. Start the React development server:
+2. Start the React development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     The React app will be accessible at http://localhost:3000.
 
 ### Backend (FastAPI)
 
-1. Navigate to the `backend` directory:
 
-    ```bash
-    cd backend
-    ```
-
-2. Create a virtual environment:
+1. Create a virtual environment:
 
     ```bash
     python -m venv venv
     ```
 
-3. Activate the virtual environment:
+2. Activate the virtual environment:
 
     - On Windows:
 
@@ -64,13 +53,13 @@ Before running the project, ensure that you have the following dependencies inst
         source venv/bin/activate
         ```
 
-4. Install dependencies:
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Start the FastAPI server:
+4. Start the FastAPI server:
 
     ```bash
     uvicorn main:app --reload
